@@ -2,6 +2,300 @@
 sidebar_position: 1
 ---
 
-# Welcome
+# Classes
 
-Docs for GTK3 Vala.
+- [AboutDialog](AboutDialog) - The GtkAboutDialog offers a simple way to display information about a program like its logo, name, copyright, website and license.
+- [AccelGroup](AccelGroup) - A AccelGroup represents a group of keyboard accelerators, typically attached to a toplevel Window (with add_accel_group).
+- [AccelLabel](AccelLabel) - The AccelLabel widget is a subclass of Label that also displays an accelerator key on the right of the label text, e.
+- [AccelMap](AccelMap) - Accelerator maps are used to define runtime configurable accelerators.
+- [Accessible](Accessible) - The Accessible class is the base class for accessible implementations for Widget subclasses.
+- [Action](Action) - In GTK+ 3.10, GtkAction has been deprecated. Use Action instead, and associate actions with Actionable widgets. Use MenuModel for creating menus with Menu.from_model.
+- [ActionBar](ActionBar) - GtkActionBar is designed to present contextual actions.
+- [ActionGroup](ActionGroup) - Actions are organised into groups.
+- [Adjustment](Adjustment) - The Adjustment object represents a value which has an associated lower and upper bound, together with step and page increments, and a page size.
+- [Alignment](Alignment) - The Alignment widget controls the alignment and size of its child widget.
+- [AppChooserButton](AppChooserButton) - The AppChooserButton is a widget that lets the user select an application.
+- [AppChooserDialog](AppChooserDialog) - AppChooserDialog shows a AppChooserWidget inside a Dialog.
+- [AppChooserWidget](AppChooserWidget) - AppChooserWidget is a widget for selecting applications.
+- [Application](Application) - Application is a class that handles many important aspects of a GTK+ application in a convenient fashion, without enforcing a one-size-fits-all application model.
+- [ApplicationWindow](ApplicationWindow) - ApplicationWindow is a Window subclass that offers some extra functionality for better integration with Application features.
+- [Arrow](Arrow) - GtkArrow should be used to draw simple arrows that need to point in one of the four cardinal directions (up, down, left, or right).
+- [ArrowAccessible](ArrowAccessible)
+- [AspectFrame](AspectFrame) - The AspectFrame is useful when you want pack a widget so that it can resize but always retains the same aspect ratio.
+- [Assistant](Assistant) - A Assistant is a widget used to represent a generally complex operation splitted in several steps, guiding the user through its pages and controlling the page flow to collect the necessary data.
+- [Bin](Bin) - The Bin widget is a container with just one child.
+- [BindingEntry](BindingEntry) - Each key binding element of a binding sets binding list is represented by a GtkBindingEntry.
+- [BindingSet](BindingSet) - A binding set maintains a list of activatable key bindings.
+- [BindingSignal](BindingSignal) - A GtkBindingSignal stores the necessary information to activate a widget in response to a key press via a signal emission.
+- [BooleanCellAccessible](BooleanCellAccessible)
+- [Box](Box) - The GtkBox widget arranges child widgets into a single row or column, depending upon the value of its orientation property.
+- [Builder](Builder) - A GtkBuilder is an auxiliary object that reads textual descriptions of a user interface and instantiates the described objects.
+- [Button](Button) - The Button widget is generally used to trigger a callback function that is called when the button is pressed.
+- [ButtonAccessible](ButtonAccessible)
+- [ButtonBox](ButtonBox) -
+- [Calendar](Calendar) - Calendar is a widget that displays a Gregorian calendar, one month at a time.
+- [CellAccessible](CellAccessible)
+- [CellArea](CellArea) - The CellArea is an abstract class for CellLayout widgets (also referred to as "layouting widgets") to interface with an arbitrary number of CellRenderer s and interact with the user for a given TreeModel row.
+- [CellAreaBox](CellAreaBox) - The CellAreaBox renders cell renderers into a row or a column depending on its Orientation.
+- [CellAreaContext](CellAreaContext) - The CellAreaContext object is created by a given CellArea implementation via its create_context virtual method and is used to store cell sizes and alignments for a series of TreeModel rows that are requested and rendered in the same context.
+- [CellRenderer](CellRenderer) - The CellRenderer is a base class of a set of objects used for rendering a cell to a Context.
+- [CellRendererAccel](CellRendererAccel) - CellRendererAccel displays a keyboard accelerator (i.
+- [CellRendererCombo](CellRendererCombo) - CellRendererCombo renders text in a cell like CellRendererText from which it is derived.
+- [CellRendererPixbuf](CellRendererPixbuf) - A CellRendererPixbuf can be used to render an image in a cell.
+- [CellRendererProgress](CellRendererProgress) - CellRendererProgress renders a numeric value as a progress par in a cell.
+- [CellRendererSpin](CellRendererSpin) - CellRendererSpin renders text in a cell like CellRendererText from which it is derived.
+- [CellRendererSpinner](CellRendererSpinner) - GtkCellRendererSpinner renders a spinning animation in a cell, very similar to Spinner.
+- [CellRendererText](CellRendererText) - A CellRendererText renders a given text in its cell, using the font, color and style information provided by its properties.
+- [CellRendererToggle](CellRendererToggle) - CellRendererToggle renders a toggle button in a cell.
+- [CellView](CellView) - A CellView displays a single row of a TreeModel using a CellArea and CellAreaContext .
+- [CheckButton](CheckButton) - A CheckButton places a discrete ToggleButton next to a widget, (usually a Label).
+- [CheckMenuItem](CheckMenuItem) - A CheckMenuItem is a menu item that maintains the state of a boolean value in addition to a MenuItem usual role in activating application code.
+- [CheckMenuItemAccessible](CheckMenuItemAccessible)
+- [Clipboard](Clipboard) - The Clipboard object represents a clipboard of data shared between different processes or between different widgets in the same process.
+- [ColorButton](ColorButton) - The ColorButton is a button which displays the currently selected color and allows to open a color selection dialog to change the color.
+- [ColorChooserDialog](ColorChooserDialog) - The ColorChooserDialog widget is a dialog for choosing a color.
+- [ColorChooserWidget](ColorChooserWidget) - The ColorChooserWidget widget lets the user select a color.
+- [ColorSelection](ColorSelection)
+- [ColorSelectionDialog](ColorSelectionDialog)
+- [ComboBox](ComboBox) - A GtkComboBox is a widget that allows the user to choose from a list of valid choices.
+- [ComboBoxAccessible](ComboBoxAccessible)
+- [ComboBoxText](ComboBoxText) - A GtkComboBoxText is a simple variant of ComboBox that hides the model-view complexity for simple text-only use cases.
+- [Container](Container) - A GTK+ user interface is constructed by nesting widgets inside widgets.
+- [ContainerAccessible](ContainerAccessible)
+- [ContainerCellAccessible](ContainerCellAccessible)
+- [CssProvider](CssProvider) - GtkCssProvider is an object implementing the StyleProvider interface.
+- [CssSection](CssSection) - Defines a part of a CSS document.
+- [Dialog](Dialog) - Dialog boxes are a convenient way to prompt the user for a small amount of input, e.
+- [DrawingArea](DrawingArea) - The DrawingArea widget is used for creating custom user interface elements.
+- [Entry](Entry) - The Entry widget is a single line text entry widget.
+- [EntryAccessible](EntryAccessible)
+- [EntryBuffer](EntryBuffer) - The EntryBuffer class contains the actual text displayed in a Entry widget.
+- [EntryCompletion](EntryCompletion) - EntryCompletion is an auxiliary object to be used in conjunction with Entry to provide the completion functionality.
+- [EntryIconAccessible](EntryIconAccessible)
+- [EventBox](EventBox) - The EventBox widget is a subclass of Bin which also has its own window.
+- [EventController](EventController) - EventController is a base, low-level implementation for event controllers.
+- [EventControllerKey](EventControllerKey) - EventControllerKey is an event controller meant for situations where you need access to key events.
+- [EventControllerMotion](EventControllerMotion) - EventControllerMotion is an event controller meant for situations where you need to track the position of the pointer.
+- [EventControllerScroll](EventControllerScroll) - EventControllerScroll is an event controller meant to handle scroll events from mice and touchpads.
+- [Expander](Expander) - A Expander allows the user to hide or show its child by clicking on an expander triangle similar to the triangles used in a TreeView.
+- [ExpanderAccessible](ExpanderAccessible)
+- [FileChooserButton](FileChooserButton) - The FileChooserButton is a widget that lets the user select a file.
+- [FileChooserDialog](FileChooserDialog) - FileChooserDialog is a dialog box suitable for use with “File/Open” or “File/Save as” commands.
+- [FileChooserNative](FileChooserNative) - FileChooserNative is an abstraction of a dialog box suitable for use with “File/Open” or “File/Save as” commands.
+- [FileChooserWidget](FileChooserWidget) - FileChooserWidget is a widget for choosing files.
+- [FileChooserWidgetAccessible](FileChooserWidgetAccessible)
+- [FileFilter](FileFilter) - A GtkFileFilter can be used to restrict the files being shown in a FileChooser.
+- [FileFilterInfo](FileFilterInfo) - A FileFilterInfo-struct is used to pass information about the tested file to filter.
+- [Fixed](Fixed) - The Fixed widget is a container which can place child widgets at fixed positions and with fixed sizes, given in pixels.
+- [FixedChild](FixedChild)
+- [FlowBox](FlowBox) - A GtkFlowBox positions child widgets in sequence according to its orientation.
+- [FlowBoxAccessible](FlowBoxAccessible)
+- [FlowBoxChild](FlowBoxChild)
+- [FlowBoxChildAccessible](FlowBoxChildAccessible)
+- [FontButton](FontButton) - The FontButton is a button which displays the currently selected font an allows to open a font chooser dialog to change the font.
+- [FontChooserDialog](FontChooserDialog) - The FontChooserDialog widget is a dialog for selecting a font.
+- [FontChooserWidget](FontChooserWidget) - The FontChooserWidget widget lists the available fonts, styles and sizes, allowing the user to select a font.
+- [FontSelection](FontSelection)
+- [FontSelectionDialog](FontSelectionDialog)
+- [Frame](Frame) - The frame widget is a bin that surrounds its child with a decorative frame and an optional label.
+- [FrameAccessible](FrameAccessible)
+- [GLArea](GLArea) - GLArea is a widget that allows drawing with OpenGL.
+- [Gesture](Gesture) - Gesture is the base object for gesture recognition, although this object is quite generalized to serve as a base for multi-touch gestures, it is suitable to implement single-touch and pointer-based gestures (using the special null EventSequence value for these).
+- [GestureDrag](GestureDrag) - GestureDrag is a Gesture implementation that recognizes drag operations.
+- [GestureLongPress](GestureLongPress) - GestureLongPress is a Gesture implementation able to recognize long presses, triggering the pressed after the timeout is exceeded.
+- [GestureMultiPress](GestureMultiPress) - GestureMultiPress is a Gesture implementation able to recognize multiple clicks on a nearby zone, which can be listened for through the pressed signal.
+- [GesturePan](GesturePan) - GesturePan is a Gesture implementation able to recognize pan gestures, those are drags that are locked to happen along one axis.
+- [GestureRotate](GestureRotate) - GestureRotate is a Gesture implementation able to recognize 2-finger rotations, whenever the angle between both handled sequences changes, the angle_changed signal is emitted.
+- [GestureSingle](GestureSingle) - GestureSingle is a subclass of Gesture, optimized (although not restricted) for dealing with mouse and single-touch gestures.
+- [GestureStylus](GestureStylus) - GestureStylus is a Gesture implementation specific to stylus input.
+- [GestureSwipe](GestureSwipe) - GestureSwipe is a Gesture implementation able to recognize swipes, after a press/move/.../move/release sequence happens, the swipe signal will be emitted, providing the velocity and directionality of the sequence at the time it was lifted.
+- [GestureZoom](GestureZoom) - GestureZoom is a Gesture implementation able to recognize pinch/zoom gestures, whenever the distance between both tracked sequences changes, the scale_changed signal is emitted to report the scale factor.
+- [Gradient](Gradient) - GtkGradient is a boxed type that represents a gradient.
+- [Grid](Grid) - GtkGrid is a container which arranges its child widgets in rows and columns, with arbitrary positions and horizontal/vertical spans.
+- [HBox](HBox) - HBox is a container that organizes child widgets into a single row.
+- [HButtonBox](HButtonBox)
+- [HPaned](HPaned) - The HPaned widget is a container widget with two children arranged horizontally.
+- [HSV](HSV) - HSV is the “color wheel” part of a complete color selector widget.
+- [HScale](HScale) - The HScale widget is used to allow the user to select a value using a horizontal slider.
+- [HScrollbar](HScrollbar) - The HScrollbar widget is a widget arranged horizontally creating a scrollbar.
+- [HSeparator](HSeparator) - The HSeparator widget is a horizontal separator, used to group the widgets within a window.
+- [HandleBox](HandleBox) - The HandleBox widget allows a portion of a window to be "torn off".
+- [HeaderBar](HeaderBar) - GtkHeaderBar is similar to a horizontal Box.
+- [HeaderBarAccessible](HeaderBarAccessible)
+- [IMContext](IMContext) - IMContext defines the interface for GTK+ input methods.
+- [IMContextSimple](IMContextSimple) - GtkIMContextSimple is a simple input method context supporting table-based input methods.
+- [IMMulticontext](IMMulticontext)
+- [IconFactory](IconFactory) - An icon factory manages a collection of IconSet; a IconSet manages a set of variants of a particular icon (i.
+- [IconInfo](IconInfo) - Contains information found when looking up an icon in an icon theme.
+- [IconSet](IconSet)
+- [IconSource](IconSource)
+- [IconTheme](IconTheme) - IconTheme provides a facility for looking up icons by name and size.
+- [IconView](IconView) - IconView provides an alternative view on a TreeModel.
+- [IconViewAccessible](IconViewAccessible)
+- [Image](Image) - The Image widget displays an image.
+- [ImageAccessible](ImageAccessible)
+- [ImageCellAccessible](ImageCellAccessible)
+- [ImageMenuItem](ImageMenuItem) - A GtkImageMenuItem is a menu item which has an icon next to the text label.
+- [InfoBar](InfoBar) - InfoBar is a widget that can be used to show messages to the user without showing a dialog.
+- [Invisible](Invisible) - The Invisible widget is used internally in GTK+, and is probably not very useful for application developers.
+- [Label](Label) - The Label widget displays a small amount of text.
+- [LabelAccessible](LabelAccessible)
+- [LabelSelectionInfo](LabelSelectionInfo)
+- [Layout](Layout) - Layout is similar to DrawingArea in that it’s a “blank slate” and doesn’t do anything except paint a blank background by default.
+- [LevelBar](LevelBar) - The LevelBar is a bar widget that can be used as a level indicator.
+- [LevelBarAccessible](LevelBarAccessible)
+- [LinkButton](LinkButton) - A GtkLinkButton is a Button with a hyperlink, similar to the one used by web browsers, which triggers an action when clicked.
+- [LinkButtonAccessible](LinkButtonAccessible)
+- [ListBox](ListBox) - A GtkListBox is a vertical container that contains GtkListBoxRow children.
+- [ListBoxAccessible](ListBoxAccessible)
+- [ListBoxRow](ListBoxRow)
+- [ListBoxRowAccessible](ListBoxRowAccessible)
+- [ListStore](ListStore) - The ListStore object is a list model for use with a TreeView widget.
+- [LockButton](LockButton) - GtkLockButton is a widget that can be used in control panels or preference dialogs to allow users to obtain and revoke authorizations needed to operate the controls.
+- [LockButtonAccessible](LockButtonAccessible)
+- [Menu](Menu) - A Menu is a MenuShell that implements a drop down menu consisting of a list of MenuItem objects which can be navigated and activated by the user to perform application functions.
+- [MenuAccessible](MenuAccessible)
+- [MenuBar](MenuBar) - The MenuBar is a subclass of MenuShell which contains one or more MenuItems.
+- [MenuButton](MenuButton) - The MenuButton widget is used to display a popup when clicked on.
+- [MenuButtonAccessible](MenuButtonAccessible)
+- [MenuItem](MenuItem) - The MenuItem widget and the derived widgets are the only valid children for menus.
+- [MenuItemAccessible](MenuItemAccessible)
+- [MenuShell](MenuShell) - A MenuShell is the abstract base class used to derive the Menu and MenuBar subclasses.
+- [MenuShellAccessible](MenuShellAccessible)
+- [MenuToolButton](MenuToolButton) - A MenuToolButton is a ToolItem that contains a button and a small additional button with an arrow.
+- [MessageDialog](MessageDialog) - MessageDialog presents a dialog with some message text.
+- [Misc](Misc) - The Misc widget is an abstract widget which is not useful itself, but is used to derive subclasses which have alignment and padding attributes.
+- [ModelButton](ModelButton) - GtkModelButton is a button class that can use a Action as its model.
+- [MountOperation](MountOperation) - This should not be accessed directly.
+- [NativeDialog](NativeDialog) - Native dialogs are platform dialogs that don't use Dialog or Window.
+- [Notebook](Notebook) - The Notebook widget is a Container whose children are pages that can be switched between using tab labels along one edge.
+- [NotebookAccessible](NotebookAccessible)
+- [NotebookPageAccessible](NotebookPageAccessible)
+- [NumerableIcon](NumerableIcon) - GtkNumerableIcon is a subclass of EmblemedIcon that can show a number or short string as an emblem.
+- [OffscreenWindow](OffscreenWindow) - GtkOffscreenWindow is strictly intended to be used for obtaining snapshots of widgets that are not part of a normal widget hierarchy.
+- [Overlay](Overlay) - GtkOverlay is a container which contains a single main child, on top of which it can place “overlay” widgets.
+- [PadController](PadController) - PadController is an event controller for the pads found in drawing tablets (The collection of buttons and tactile sensors often found around the stylus-sensitive area).
+- [PageSetup](PageSetup) - A GtkPageSetup object stores the page size, orientation and margins.
+- [Paned](Paned) - Paned has two panes, arranged either horizontally or vertically.
+- [PanedAccessible](PanedAccessible)
+- [PaperSize](PaperSize) - GtkPaperSize handles paper sizes.
+- [PlacesSidebar](PlacesSidebar) - PlacesSidebar is a widget that displays a list of frequently-used places in the file system: the user’s home directory, the user’s bookmarks, and volumes and drives.
+- [Plug](Plug) - Together with Socket, Plug provides the ability to embed widgets from one process into another process in a fashion that is transparent to the user.
+- [PlugAccessible](PlugAccessible)
+- [Popover](Popover) - GtkPopover is a bubble-like context window, primarily meant to provide context-dependent information or options.
+- [PopoverAccessible](PopoverAccessible)
+- [PopoverMenu](PopoverMenu) - GtkPopoverMenu is a subclass of Popover that treats its children like menus and allows switching between them.
+- [PrintContext](PrintContext) - A GtkPrintContext encapsulates context information that is required when drawing pages for printing, such as the cairo context and important parameters like page size and resolution.
+- [PrintOperation](PrintOperation) - GtkPrintOperation is the high-level, portable printing API.
+- [PrintSettings](PrintSettings) - A GtkPrintSettings object represents the settings of a print dialog in a system-independent way.
+- [ProgressBar](ProgressBar) - The ProgressBar is typically used to display the progress of a long running operation.
+- [ProgressBarAccessible](ProgressBarAccessible)
+- [RadioAction](RadioAction) - A RadioAction is similar to RadioMenuItem.
+- [RadioButton](RadioButton) - A single radio button performs the same basic function as a CheckButton, as its position in the object hierarchy reflects.
+- [RadioButtonAccessible](RadioButtonAccessible)
+- [RadioMenuItem](RadioMenuItem) - A radio menu item is a check menu item that belongs to a group.
+- [RadioMenuItemAccessible](RadioMenuItemAccessible)
+- [RadioToolButton](RadioToolButton) - A RadioToolButton is a ToolItem that contains a radio button, that is, a button that is part of a group of toggle buttons where only one button can be active at a time.
+- [Range](Range) - Range is the common base class for widgets which visualize an adjustment, e.
+- [RangeAccessible](RangeAccessible)
+- [RcContext](RcContext)
+- [RcStyle](RcStyle) - The RcStyle-struct is used to represent a set of information about the appearance of a widget.
+- [RecentAction](RecentAction) - A RecentAction represents a list of recently used files, which can be shown by widgets such as RecentChooserDialog or RecentChooserMenu.
+- [RecentChooserDialog](RecentChooserDialog) - RecentChooserDialog is a dialog box suitable for displaying the recently used documents.
+- [RecentChooserMenu](RecentChooserMenu) - RecentChooserMenu is a widget suitable for displaying recently used files inside a menu.
+- [RecentChooserWidget](RecentChooserWidget) - RecentChooserWidget is a widget suitable for selecting recently used files.
+- [RecentFilter](RecentFilter) - A RecentFilter can be used to restrict the files being shown in a RecentChooser.
+- [RecentInfo](RecentInfo) - RecentInfo -struct contains private data only, and should be accessed using the provided API.
+- [RecentManager](RecentManager) - RecentManager provides a facility for adding, removing and looking up recently used files.
+- [RendererCellAccessible](RendererCellAccessible)
+- [Revealer](Revealer) - The GtkRevealer widget is a container which animates the transition of its child from invisible to visible.
+- [Scale](Scale) - A GtkScale is a slider control used to select a numeric value.
+- [ScaleAccessible](ScaleAccessible)
+- [ScaleButton](ScaleButton) - ScaleButton provides a button which pops up a scale widget.
+- [ScaleButtonAccessible](ScaleButtonAccessible)
+- [Scrollbar](Scrollbar) - The Scrollbar widget is a horizontal or vertical scrollbar, depending on the value of the orientation property.
+- [ScrolledWindow](ScrolledWindow) - GtkScrolledWindow is a container that accepts a single child widget, makes that child scrollable using either internally added scrollbars or externally associated adjustments, and optionally draws a frame around the child.
+- [ScrolledWindowAccessible](ScrolledWindowAccessible)
+- [SearchBar](SearchBar) - SearchBar is a container made to have a search entry (possibly with additional connex widgets, such as drop-down menus, or buttons) built-in.
+- [SearchEntry](SearchEntry) - SearchEntry is a subclass of Entry that has been tailored for use as a search entry.
+- [SelectionData](SelectionData)
+- [Separator](Separator) - GtkSeparator is a horizontal or vertical separator widget, depending on the value of the orientation property, used to group the widgets within a window.
+- [SeparatorMenuItem](SeparatorMenuItem) - The SeparatorMenuItem is a separator used to group items within a menu.
+- [SeparatorToolItem](SeparatorToolItem) - A SeparatorToolItem is a ToolItem that separates groups of other ToolItems.
+- [Settings](Settings) - GtkSettings provide a mechanism to share global settings between applications.
+- [ShortcutLabel](ShortcutLabel) - ShortcutLabel is a widget that represents a single keyboard shortcut or gesture in the user interface.
+- [ShortcutsGroup](ShortcutsGroup) - A GtkShortcutsGroup represents a group of related keyboard shortcuts or gestures.
+- [ShortcutsSection](ShortcutsSection) - A GtkShortcutsSection collects all the keyboard shortcuts and gestures for a major application mode.
+- [ShortcutsShortcut](ShortcutsShortcut) - A GtkShortcutsShortcut represents a single keyboard shortcut or gesture with a short text.
+- [ShortcutsWindow](ShortcutsWindow) - A GtkShortcutsWindow shows brief information about the keyboard shortcuts and gestures of an application.
+- [SizeGroup](SizeGroup) - SizeGroup provides a mechanism for grouping a number of widgets together so they all request the same amount of space.
+- [Socket](Socket) - Together with Plug, Socket provides the ability to embed widgets from one process into another process in a fashion that is transparent to the user.
+- [SocketAccessible](SocketAccessible)
+- [SpinButton](SpinButton) - A SpinButton is an ideal way to allow the user to set the value of some attribute.
+- [SpinButtonAccessible](SpinButtonAccessible)
+- [Spinner](Spinner) - A GtkSpinner widget displays an icon-size spinning animation.
+- [SpinnerAccessible](SpinnerAccessible)
+- [Stack](Stack) - The GtkStack widget is a container which only shows one of its children at a time.
+- [StackAccessible](StackAccessible)
+- [StackSidebar](StackSidebar) - A GtkStackSidebar enables you to quickly and easily provide a consistent "sidebar" object for your user interface.
+- [StackSwitcher](StackSwitcher) - The GtkStackSwitcher widget acts as a controller for a Stack; it shows a row of buttons to switch between the various pages of the associated stack widget.
+- [StatusIcon](StatusIcon) - The “system tray” or notification area is normally used for transient icons that indicate some special state.
+- [Statusbar](Statusbar) - A Statusbar is usually placed along the bottom of an application's main Window.
+- [StatusbarAccessible](StatusbarAccessible)
+- [Style](Style) - A Style object encapsulates the information that provides the look and feel for a widget.
+- [StyleContext](StyleContext) - StyleContext is an object that stores styling information affecting a widget defined by WidgetPath.
+- [StyleProperties](StyleProperties) - GtkStyleProperties provides the storage for style information that is used by StyleContext and other StyleProvider implementations.
+- [Switch](Switch) - Switch is a widget that has two states: on or off.
+- [SwitchAccessible](SwitchAccessible)
+- [SymbolicColor](SymbolicColor) - GtkSymbolicColor is a boxed type that represents a symbolic color.
+- [Table](Table) - The Table functions allow the programmer to arrange widgets in rows and columns, making it easy to align many widgets next to each other, horizontally and vertically.
+- [TargetList](TargetList) - A TargetList -struct is a reference counted list of GtkTargetPair and should be treated as opaque.
+- [TearoffMenuItem](TearoffMenuItem) - A TearoffMenuItem is a special MenuItem which is used to tear off and reattach its menu.
+- [TextAttributes](TextAttributes) - Using TextAttributes directly should rarely be necessary.
+- [TextBTree](TextBTree)
+- [TextBuffer](TextBuffer) - You may wish to begin by reading the text widget conceptual overview which gives an overview of all the objects and data types related to the text widget and how they work together.
+- [TextCellAccessible](TextCellAccessible)
+- [TextChildAnchor](TextChildAnchor) - A TextChildAnchor is a spot in the buffer where child widgets can be “anchored” (inserted inline, as if they were characters).
+- [TextMark](TextMark) - You may wish to begin by reading the text widget conceptual overview which gives an overview of all the objects and data types related to the text widget and how they work together.
+- [TextTag](TextTag) - You may wish to begin by reading the text widget conceptual overview which gives an overview of all the objects and data types related to the text widget and how they work together.
+- [TextTagTable](TextTagTable) - You may wish to begin by reading the text widget conceptual overview which gives an overview of all the objects and data types related to the text widget and how they work together.
+- [TextView](TextView) - You may wish to begin by reading the text widget conceptual overview which gives an overview of all the objects and data types related to the text widget and how they work together.
+- [TextViewAccessible](TextViewAccessible)
+- [ThemeEngine](ThemeEngine)
+- [ThemingEngine](ThemingEngine) - ThemingEngine was the object used for rendering themed content in GTK+ widgets.
+- [ToggleAction](ToggleAction) - A ToggleAction corresponds roughly to a CheckMenuItem.
+- [ToggleButton](ToggleButton) - A ToggleButton is a Button which will remain “pressed-in” when clicked.
+- [ToggleButtonAccessible](ToggleButtonAccessible)
+- [ToggleToolButton](ToggleToolButton) - A ToggleToolButton is a ToolItem that contains a toggle button.
+- [ToolButton](ToolButton) - ToolButtons are ToolItems containing buttons.
+- [ToolItem](ToolItem) - ToolItems are widgets that can appear on a toolbar.
+- [ToolItemGroup](ToolItemGroup) - A ToolItemGroup is used together with ToolPalette to add ToolItems to a palette like container with different categories and drag and drop support.
+- [ToolPalette](ToolPalette) - A ToolPalette allows you to add ToolItems to a palette-like container with different categories and drag and drop support.
+- [Toolbar](Toolbar) - A toolbar is created with a call to Toolbar.
+- [Tooltip](Tooltip) - Basic tooltips can be realized simply by using set_tooltip_text or set_tooltip_markup without any explicit tooltip object.
+- [ToplevelAccessible](ToplevelAccessible)
+- [TreeModelFilter](TreeModelFilter) - A TreeModelFilter is a tree model which wraps another tree model, and can do the following things:
+- [TreeModelSort](TreeModelSort) - The TreeModelSort is a model which implements the TreeSortable interface.
+- [TreePath](TreePath)
+- [TreeRowReference](TreeRowReference) - A GtkTreeRowReference tracks model changes so that it always refers to the same row (a TreePath refers to a position, not a fixed row).
+- [TreeSelection](TreeSelection) - The TreeSelection object is a helper object to manage the selection for a TreeView widget.
+- [TreeStore](TreeStore) - The TreeStore object is a list model for use with a TreeView widget.
+- [TreeView](TreeView) - Widget that displays any object that implements the TreeModel interface.
+- [TreeViewAccessible](TreeViewAccessible)
+- [TreeViewColumn](TreeViewColumn) - The GtkTreeViewColumn object represents a visible column in a TreeView widget.
+- [UIManager](UIManager) - A UIManager constructs a user interface (menus and toolbars) from one or more UI definitions, which reference actions from one or more action groups.
+- [VBox](VBox) - A VBox is a container that organizes child widgets into a single column.
+- [VButtonBox](VButtonBox)
+- [VPaned](VPaned) - The VPaned widget is a container widget with two children arranged vertically.
+- [VScale](VScale) - The VScale widget is used to allow the user to select a value using a vertical slider.
+- [VScrollbar](VScrollbar) - The VScrollbar widget is a widget arranged vertically creating a scrollbar.
+- [VSeparator](VSeparator) - The VSeparator widget is a vertical separator, used to group the widgets within a window.
+- [Viewport](Viewport) - The Viewport widget acts as an adaptor class, implementing scrollability for child widgets that lack their own scrolling capabilities.
+- [VolumeButton](VolumeButton) - VolumeButton is a subclass of ScaleButton that has been tailored for use as a volume control widget with suitable icons, tooltips and accessible labels.
+- [Widget](Widget) - GtkWidget is the base class all widgets in GTK+ derive from.
+- [WidgetAccessible](WidgetAccessible)
+- [WidgetPath](WidgetPath) - GtkWidgetPath is a boxed type that represents a widget hierarchy from the topmost widget, typically a toplevel, to any child.
+- [Window](Window) - A GtkWindow is a toplevel window which can contain other widgets.
+- [WindowAccessible](WindowAccessible)
+- [WindowGeometryInfo](WindowGeometryInfo)
+- [WindowGroup](WindowGroup) - A WindowGroup restricts the effect of grabs to windows in the same group, thereby making window groups almost behave like separate applications.
