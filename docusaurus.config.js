@@ -9,7 +9,7 @@ const config = {
   title: "GTK3Vala",
   tagline: "Docs for GTK3 Vala.",
   url: "https://chauhankiran.github.io/gtk3vala",
-  baseUrl: "/",
+  baseUrl: "/gtk3vala/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
