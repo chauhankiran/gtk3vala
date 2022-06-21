@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[6253],{4473:function(e){e.exports=JSON.parse('{"permalink":"/gtk3vala/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

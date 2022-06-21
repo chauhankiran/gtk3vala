@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[3964],{1785:function(a){a.exports=JSON.parse('{"label":"facebook","permalink":"/gtk3vala/blog/tags/facebook","allTagsPath":"/gtk3vala/blog/tags","count":1}')}}]);

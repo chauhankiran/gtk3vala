@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[5593],{5011:function(e){e.exports=JSON.parse('{"permalink":"/gtk3vala/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
